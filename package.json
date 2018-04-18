@@ -1,0 +1,20 @@
+{
+  "name": "cordova-support-kotlin",
+  "version": "0.0.1-alpha.1",
+  "description": "cordova support kotlin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/van-team/cordova-support-kotlin.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "author": "van-team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/van-team/cordova-support-kotlin/issues"
+  },
+  "homepage": "https://github.com/van-team/cordova-support-kotlin#readme"
+}
