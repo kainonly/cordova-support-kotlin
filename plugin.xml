@@ -6,5 +6,6 @@
     <platform name="android">
         <hook type="after_plugin_add" src="src/support-kotlin.js" />
         <hook type="after_platform_add" src="src/support-kotlin.js" />
+        <framework src="org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.31" />
     </platform>
 </plugin>
