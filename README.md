@@ -13,5 +13,3 @@ Add This plugin in your project:
 ``` shell
 # cordova plugin add cordova-support-kotlin --save
 ```
-
-> If there is a problem with the build, you may need to manually format and sync gradle.

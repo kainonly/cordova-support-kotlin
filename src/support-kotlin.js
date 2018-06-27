@@ -3,7 +3,7 @@ const gradleFilename = './platforms/android/app/build.gradle';
 const buildContent = fs.readFileSync(gradleFilename).toString();
 const APPLY_KOTLIN_ANDROID = '\napply plugin: "kotlin-android"\n';
 const APPLY_KOTLIN_ANDROID_EXTENSIONS = '\napply plugin: "kotlin-android-extensions"\n';
-const KOTLIN_VERSION = '\next.kotlin_version = "1.2.50"\n';
+const KOTLIN_VERSION = '\next.kotlin_version = "latest.integration"\n';
 const KOTLIN_GRADLE_PLUGIN = '\nclasspath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"\n';
 let rewrite = buildContent;
 
