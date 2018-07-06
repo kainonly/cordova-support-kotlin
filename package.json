@@ -1,19 +1,19 @@
 {
   "name": "cordova-support-kotlin",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "cordova support kotlin",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/van-team/cordova-support-kotlin.git"
+    "url": "git+https://github.com/kainonly/cordova-support-kotlin.git"
   },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android"
   ],
-  "author": "-kain",
+  "author": "kain",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/van-team/cordova-support-kotlin/issues"
+    "url": "https://github.com/kainonly/cordova-support-kotlin/issues"
   },
-  "homepage": "https://github.com/van-team/cordova-support-kotlin#readme"
+  "homepage": "https://github.com/kainonly/cordova-support-kotlin#readme"
 }
