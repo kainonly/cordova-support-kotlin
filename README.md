@@ -29,7 +29,7 @@ Set additional apply plugin
 ``` xml
 <platform name="android">
     ...
-    <apply-plugin>kotlin-android-extension</apply-plugin>
+    <apply-plugin>kotlin-android-extensions</apply-plugin>
     <apply-plugin>kotlin-kapt</apply-plugin>
     ...
 </platform>
