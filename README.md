@@ -30,7 +30,7 @@ Set additional apply plugin
 <platform name="android">
     ...
     <apply-plugin>kotlin-android-extension</apply-plugin>
-    <apply-plugin>kotlin-apt</apply-plugin>
+    <apply-plugin>kotlin-kapt</apply-plugin>
     ...
 </platform>
 ```
