@@ -1,5 +1,6 @@
 const fs = require('fs');
 const xml2js = require('xml2js');
+
 let defaultArgs = {
   kotlin_version: '\text.kotlin_version = "latest.integration"\n\t',
   kotlin_android: `apply plugin: 'kotlin-android'`,
@@ -10,6 +11,7 @@ const configXML = fs.readFileSync('./config.xml').toString();
 const gradlePath = './platforms/android/app/build.gradle';
 const gradle = fs.readFileSync(gradlePath).toString();
 let text = gradle;
+
 const parser = new xml2js.Parser();
 parser.parseString(configXML, (error, config) => {
   if (error) return;
