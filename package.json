@@ -16,7 +16,7 @@
     "url": "https://github.com/kainonly/cordova-support-kotlin/issues"
   },
   "homepage": "https://github.com/kainonly/cordova-support-kotlin#readme",
-  "devDependencies": {
+  "dependencies": {
     "xml2js": "^0.4.19"
   }
 }
