@@ -1,6 +1,6 @@
 {
   "name": "cordova-support-kotlin",
-  "version": "1.2.2",
+  "version": "1.2.1",
   "description": "Cordova Android application development kotlin support.",
   "repository": {
     "type": "git",
